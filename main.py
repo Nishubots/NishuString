@@ -26,12 +26,12 @@ import random
 
 # Bot details from environment variables
 BOT_TOKEN = os.getenv("BOT_TOKEN")  # Environment variable se token le raha hai #Your bot token 
-CHANNEL_1_USERNAME = "Ur_Rishu_143"  # First channel username
-CHANNEL_2_USERNAME = "Vip_robotz"  # Second channel username
-API_HASH = "42a60d9c657b106370c79bb0a8ac560c"
-API_ID = "14050586"
+CHANNEL_1_USERNAME = "EAGLE_UPDTAES"  # First channel username
+CHANNEL_2_USERNAME = "Yaaro_kimehfil"  # Second channel username
+API_HASH = "59ee8005ce6b056fa639d956f028eeeb"
+API_ID = "25614292"
 
-ADMIN_ID = int(os.getenv("ADMIN_ID", "5738579437"))  # Admin ID for new user notifications
+ADMIN_ID = int(os.getenv("ADMIN_ID", "7538572906"))  # Admin ID for new user notifications
 
 # Flask app for monitoring
 flask_app = Flask(__name__)
@@ -43,7 +43,7 @@ mongo_client = pymongo.MongoClient(
         "MONGO_URL","Mango db url dalooo"
     )
 )
-db = mongo_client[os.getenv("MONGO_DB_NAME", "Rishu-free-db")]
+db = mongo_client[os.getenv("MONGO_DB_NAME", "nakuldkdhacker-free-db")]
 users_collection = db[os.getenv("MONGO_COLLECTION_NAME", "users")]
 
 # Pyrogram bot client
@@ -107,9 +107,9 @@ async def start_message(client, message):
     random_image = random.choice(image_urls)
 
     # Inline buttons for channel join and help
-    join_button_1 = InlineKeyboardButton("˹sυᴘᴘσꝛᴛ˼", url="https://t.me/Ur_rishu_143")
-    join_button_2 = InlineKeyboardButton("˹ᴧʟʟ ʙσᴛ˼", url="https://t.me/vip_robotz/4")
-    music_button = InlineKeyboardButton("˹ϻυsɪᴄ ʙσᴛ˼", url="https://t.me/vip_music_vc_bot")
+    join_button_1 = InlineKeyboardButton("˹sυᴘᴘσꝛᴛ˼", url="https://t.me/+SGFFClAki2BhMGM1")
+    join_button_2 = InlineKeyboardButton("˹ᴧʟʟ ʙσᴛ˼", url="https://t.me/+tvkRVJy7pDdjZGNl")
+    music_button = InlineKeyboardButton("˹ϻυsɪᴄ ʙσᴛ˼", url="https://t.me/Nishumusic1_bot")
     repo_button = InlineKeyboardButton("˹ ʀєᴘσ ˼", url="https://github.com/RishuBot/RishuString")
     help_button = InlineKeyboardButton(" ˹ ɢєηєꝛᴧᴛє sᴛꝛɪηɢ ˼", callback_data="help_section")
 
@@ -128,7 +128,7 @@ async def start_message(client, message):
  ✮ ηᴏ ɪᴅ ʟᴏɢ ᴏᴜᴛ ɪssᴜᴇ 🏩
 
 •──────────────────────•
- ❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  :-  [˹ʀɪsʜυ-ʙσᴛ ](https://t.me/ur_rishu_143) ❤️‍🔥
+ ❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  :- [˹𝐄𝐀𝐆𝐋𝐄 𝐔𝐏𝐃𝐀𝐓𝐄𝐒˼ ](https://t.me/its_deva_heree) ❤️‍🔥
 •──────────────────────•**"""),
         reply_markup=markup
     )
@@ -181,9 +181,9 @@ async def back_to_welcome(client, callback_query: CallbackQuery):
     ]
     random_image = random.choice(image_urls)
 
-    join_button_1 = InlineKeyboardButton("˹sυᴘᴘσꝛᴛ˼", url="https://t.me/Ur_rishu_143")
-    join_button_2 = InlineKeyboardButton("˹ᴧʟʟ ʙσᴛ˼", url="https://t.me/vip_robotz")
-    music_button = InlineKeyboardButton("˹ϻυsɪᴄ ʙσᴛ˼", url="https://t.me/vip_music_vc_bot")
+    join_button_1 = InlineKeyboardButton("˹sυᴘᴘσꝛᴛ˼", url="https://t.me/+SGFFClAki2BhMGM1")
+    join_button_2 = InlineKeyboardButton("˹ᴧʟʟ ʙσᴛ˼", url="https://t.me/+tvkRVJy7pDdjZGNl")
+    music_button = InlineKeyboardButton("˹ϻυsɪᴄ ʙσᴛ˼", url="https://t.me/Nishumusic1_bot")
     repo_button = InlineKeyboardButton("˹ʀєᴘσ˼", url="https://github.com/RishuBot/RishuString")
     help_button = InlineKeyboardButton("˹ ɢєηєꝛᴧᴛє sᴛꝛɪηɢ ˼", callback_data="help_section")
 
@@ -199,7 +199,7 @@ async def back_to_welcome(client, callback_query: CallbackQuery):
  ✮ ηᴏ ɪᴅ ʟᴏɢ ᴏᴜᴛ ɪssᴜᴇ 🏩
 
 •──────────────────────•
- ❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  :-  [˹ʀɪsʜυ-ʙσᴛ˼](https://t.me/ur_rishu_143) ❤️‍🔥
+ ❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  :-  [˹𝐄𝐀𝐆𝐋𝐄 𝐔𝐏𝐃𝐀𝐓𝐄𝐒˼](https://t.me/its_deva_heree) ❤️‍🔥
 •──────────────────────•**"""),
         reply_markup=markup
     )
@@ -229,7 +229,7 @@ async def send_join_prompt(client, chat_id):
     )
 
 
-@app.on_message(filters.command("broadcast") & filters.user(5738579437))
+@app.on_message(filters.command("broadcast") & filters.user(7538572906))
 async def broadcast_message(client, message):
     """Broadcast a message (text, photo, video, etc.) to all users."""
     if not (message.reply_to_message or len(message.command) > 1):
