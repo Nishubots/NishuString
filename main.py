@@ -110,7 +110,7 @@ async def start_message(client, message):
     join_button_1 = InlineKeyboardButton("˹sυᴘᴘσꝛᴛ˼", url="https://t.me/+SGFFClAki2BhMGM1")
     join_button_2 = InlineKeyboardButton("˹ᴧʟʟ ʙσᴛ˼", url="https://t.me/+tvkRVJy7pDdjZGNl")
     music_button = InlineKeyboardButton("˹ϻυsɪᴄ ʙσᴛ˼", url="https://t.me/Nishumusic1_bot")
-    repo_button = InlineKeyboardButton("˹ ʀєᴘσ ˼", url="https://github.com/RishuBot/RishuString")
+    repo_button = InlineKeyboardButton("˹ ʀєᴘσ ˼", url="https://github.com/Nishubots/NishuString")
     help_button = InlineKeyboardButton(" ˹ ɢєηєꝛᴧᴛє sᴛꝛɪηɢ ˼", callback_data="help_section")
 
     markup = InlineKeyboardMarkup([[help_button],[join_button_1,join_button_2],[music_button,repo_button]])
@@ -128,7 +128,7 @@ async def start_message(client, message):
  ✮ ηᴏ ɪᴅ ʟᴏɢ ᴏᴜᴛ ɪssᴜᴇ 🏩
 
 •──────────────────────•
- ❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  :- [˹𝐄𝐀𝐆𝐋𝐄 𝐔𝐏𝐃𝐀𝐓𝐄𝐒˼ ](https://t.me/its_deva_heree) ❤️‍🔥
+ ❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  :- [˹𝐄𝐀𝐆𝐋𝐄 𝐔𝐏𝐃𝐀𝐓𝐄𝐒˼](https://t.me/its_deva_heree) ❤️‍🔥
 •──────────────────────•**"""),
         reply_markup=markup
     )
@@ -184,7 +184,7 @@ async def back_to_welcome(client, callback_query: CallbackQuery):
     join_button_1 = InlineKeyboardButton("˹sυᴘᴘσꝛᴛ˼", url="https://t.me/+SGFFClAki2BhMGM1")
     join_button_2 = InlineKeyboardButton("˹ᴧʟʟ ʙσᴛ˼", url="https://t.me/+tvkRVJy7pDdjZGNl")
     music_button = InlineKeyboardButton("˹ϻυsɪᴄ ʙσᴛ˼", url="https://t.me/Nishumusic1_bot")
-    repo_button = InlineKeyboardButton("˹ʀєᴘσ˼", url="https://github.com/RishuBot/RishuString")
+    repo_button = InlineKeyboardButton("˹ʀєᴘσ˼", url="https://github.com/Nishubots/NishuString")
     help_button = InlineKeyboardButton("˹ ɢєηєꝛᴧᴛє sᴛꝛɪηɢ ˼", callback_data="help_section")
 
     markup = InlineKeyboardMarkup([[help_button],[join_button_1,join_button_2],[music_button,repo_button]])
