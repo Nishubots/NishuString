@@ -40,10 +40,10 @@ start_time = time.time()
 # MongoDB setup
 mongo_client = pymongo.MongoClient(
     os.getenv(
-        "MONGO_URL","Mango db url dalooo"
+        "MONGO_URL","mongodb+srv://Divyanshu:Divyanshu0805@cluster0.cy89i.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     )
 )
-db = mongo_client[os.getenv("MONGO_DB_NAME", "nakuldkdhacker-free-db")]
+db = mongo_client[os.getenv("MONGO_DB_NAME", "Divyanshu")]
 users_collection = db[os.getenv("MONGO_COLLECTION_NAME", "users")]
 
 # Pyrogram bot client
