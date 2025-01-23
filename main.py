@@ -27,7 +27,7 @@ import random
 # Bot details from environment variables
 BOT_TOKEN = os.getenv("BOT_TOKEN")  # Environment variable se token le raha hai #Your bot token 
 CHANNEL_1_USERNAME = "EAGLE_UPDTAES"  # First channel username
-CHANNEL_2_USERNAME = "Yaaro_kimehfil"  # Second channel username
+CHANNEL_2_USERNAME = "itz_soulmates"  # Second channel username
 API_HASH = "59ee8005ce6b056fa639d956f028eeeb"
 API_ID = "25614292"
 
@@ -108,12 +108,12 @@ async def start_message(client, message):
 
     # Inline buttons for channel join and help
     join_button_1 = InlineKeyboardButton("˹sυᴘᴘσꝛᴛ˼", url="https://t.me/+SGFFClAki2BhMGM1")
-    join_button_2 = InlineKeyboardButton("˹ᴧʟʟ ʙσᴛ˼", url="https://t.me/+tvkRVJy7pDdjZGNl")
-    music_button = InlineKeyboardButton("˹ϻυsɪᴄ ʙσᴛ˼", url="https://t.me/Nishumusic1_bot")
-    repo_button = InlineKeyboardButton("˹ ʀєᴘσ ˼", url="https://github.com/Nishubots/NishuString")
+    join_button_2 = InlineKeyboardButton("˹sυᴘᴘσꝛᴛ˼", url="https://t.me/+KUklu8gB7AJmMGY8")
+    music_button = InlineKeyboardButton("˹ϻυsɪᴄ ʙσᴛ˼", url="https://t.me/SUKOONN_MUSIC_BOT")
+    group_button = InlineKeyboardButton("˹ᴧʟʟ ʙσᴛ˼", url="https://t.me/+tvkRVJy7pDdjZGNl")
     help_button = InlineKeyboardButton(" ˹ ɢєηєꝛᴧᴛє sᴛꝛɪηɢ ˼", callback_data="help_section")
 
-    markup = InlineKeyboardMarkup([[help_button],[join_button_1,join_button_2],[music_button,repo_button]])
+    markup = InlineKeyboardMarkup([[help_button],[join_button_1,join_button_2],[music_button,group_button]])
 
     # Send the welcome message with the random image
     await client.send_photo(
@@ -128,7 +128,7 @@ async def start_message(client, message):
  ✮ ηᴏ ɪᴅ ʟᴏɢ ᴏᴜᴛ ɪssᴜᴇ 🏩
 
 •──────────────────────•
- ❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  :- [˹𝐄𝐀𝐆𝐋𝐄 𝐔𝐏𝐃𝐀𝐓𝐄𝐒˼](https://t.me/its_deva_heree) ❤️‍🔥
+ ❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  :- [DEV](https://t.me/its_deva_heree) ❤️‍🔥
 •──────────────────────•**"""),
         reply_markup=markup
     )
@@ -182,12 +182,12 @@ async def back_to_welcome(client, callback_query: CallbackQuery):
     random_image = random.choice(image_urls)
 
     join_button_1 = InlineKeyboardButton("˹sυᴘᴘσꝛᴛ˼", url="https://t.me/+SGFFClAki2BhMGM1")
-    join_button_2 = InlineKeyboardButton("˹ᴧʟʟ ʙσᴛ˼", url="https://t.me/+tvkRVJy7pDdjZGNl")
-    music_button = InlineKeyboardButton("˹ϻυsɪᴄ ʙσᴛ˼", url="https://t.me/Nishumusic1_bot")
-    repo_button = InlineKeyboardButton("˹ʀєᴘσ˼", url="https://github.com/Nishubots/NishuString")
+    join_button_2 = InlineKeyboardButton("˹sυᴘᴘσꝛᴛ˼", url="https://t.me/+KUklu8gB7AJmMGY8")
+    music_button = InlineKeyboardButton("˹ϻυsɪᴄ ʙσᴛ˼", url="https://t.me/SUKOONN_MUSIC_BOT")
+    group_button = InlineKeyboardButton("˹ᴧʟʟ ʙσᴛ˼", url="https://t.me/+tvkRVJy7pDdjZGNl")
     help_button = InlineKeyboardButton("˹ ɢєηєꝛᴧᴛє sᴛꝛɪηɢ ˼", callback_data="help_section")
 
-    markup = InlineKeyboardMarkup([[help_button],[join_button_1,join_button_2],[music_button,repo_button]])
+    markup = InlineKeyboardMarkup([[help_button],[join_button_1,join_button_2],[music_button,group_button]])
 
     await callback_query.message.edit_text(
         text=(f"""**┌────── ˹ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ˼──────•
@@ -199,7 +199,7 @@ async def back_to_welcome(client, callback_query: CallbackQuery):
  ✮ ηᴏ ɪᴅ ʟᴏɢ ᴏᴜᴛ ɪssᴜᴇ 🏩
 
 •──────────────────────•
- ❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  :-  [˹𝐄𝐀𝐆𝐋𝐄 𝐔𝐏𝐃𝐀𝐓𝐄𝐒˼](https://t.me/its_deva_heree) ❤️‍🔥
+ ❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ  :-  [DEV](https://t.me/its_deva_heree) ❤️‍🔥
 •──────────────────────•**"""),
         reply_markup=markup
     )
