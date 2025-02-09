@@ -27,7 +27,7 @@ import random
 # Bot details from environment variables
 BOT_TOKEN = os.getenv("BOT_TOKEN")  # Environment variable se token le raha hai #Your bot token 
 CHANNEL_1_USERNAME = "EAGLE_UPDTAES"  # First channel username
-CHANNEL_2_USERNAME = "itz_soulmates"  # Second channel username
+CHANNEL_2_USERNAME = "FIRE_BALL_FEDERATION"  # Second channel username
 API_HASH = "59ee8005ce6b056fa639d956f028eeeb"
 API_ID = "25614292"
 
@@ -110,7 +110,7 @@ async def start_message(client, message):
     join_button_1 = InlineKeyboardButton("˹sυᴘᴘσꝛᴛ˼", url="https://t.me/+SGFFClAki2BhMGM1")
     join_button_2 = InlineKeyboardButton("˹sυᴘᴘσꝛᴛ˼", url="https://t.me/+KUklu8gB7AJmMGY8")
     music_button = InlineKeyboardButton("˹ϻυsɪᴄ ʙσᴛ˼", url="https://t.me/SUKOONN_MUSIC_BOT")
-    group_button = InlineKeyboardButton("˹ᴧʟʟ ʙσᴛ˼", url="https://t.me/+tvkRVJy7pDdjZGNl")
+    group_button = InlineKeyboardButton("˹ᴧʟʟ ʙσᴛ˼", url="https://t.me/+jLKvLlu3_X01NmFl")
     help_button = InlineKeyboardButton(" ˹ ɢєηєꝛᴧᴛє sᴛꝛɪηɢ ˼", callback_data="help_section")
 
     markup = InlineKeyboardMarkup([[help_button],[join_button_1,join_button_2],[music_button,group_button]])
@@ -184,7 +184,7 @@ async def back_to_welcome(client, callback_query: CallbackQuery):
     join_button_1 = InlineKeyboardButton("˹sυᴘᴘσꝛᴛ˼", url="https://t.me/+SGFFClAki2BhMGM1")
     join_button_2 = InlineKeyboardButton("˹sυᴘᴘσꝛᴛ˼", url="https://t.me/+KUklu8gB7AJmMGY8")
     music_button = InlineKeyboardButton("˹ϻυsɪᴄ ʙσᴛ˼", url="https://t.me/SUKOONN_MUSIC_BOT")
-    group_button = InlineKeyboardButton("˹ᴧʟʟ ʙσᴛ˼", url="https://t.me/+tvkRVJy7pDdjZGNl")
+    group_button = InlineKeyboardButton("˹ᴧʟʟ ʙσᴛ˼", url="https://t.me/+jLKvLlu3_X01NmFl")
     help_button = InlineKeyboardButton("˹ ɢєηєꝛᴧᴛє sᴛꝛɪηɢ ˼", callback_data="help_section")
 
     markup = InlineKeyboardMarkup([[help_button],[join_button_1,join_button_2],[music_button,group_button]])
