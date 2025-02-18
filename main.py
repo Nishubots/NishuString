@@ -26,8 +26,8 @@ import random
 
 # Bot details from environment variables
 BOT_TOKEN = os.getenv("BOT_TOKEN")  # Environment variable se token le raha hai #Your bot token 
-CHANNEL_1_USERNAME = "EAGLE_UPDTAES"  # First channel username
-CHANNEL_2_USERNAME = "FIRE_BALL_FEDERATION"  # Second channel username
+CHANNEL_1_USERNAME = "𝐓𝐅𝐖 ⌯ 𝐍𝐄𝐓𝐖𝐎𝐑𝐊 •"  # First channel username
+CHANNEL_2_USERNAME = "𝗧𝗙𝗪 ✘ 𝗨𝗣𝗗𝗔𝗧𝗘𝗦"  # Second channel username
 API_HASH = "59ee8005ce6b056fa639d956f028eeeb"
 API_ID = "25614292"
 
