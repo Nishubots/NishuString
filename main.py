@@ -107,10 +107,10 @@ async def start_message(client, message):
     random_image = random.choice(image_urls)
 
     # Inline buttons for channel join and help
-    join_button_1 = InlineKeyboardButton("˹sυᴘᴘσꝛᴛ˼", url="https://t.me/+SGFFClAki2BhMGM1")
-    join_button_2 = InlineKeyboardButton("˹sυᴘᴘσꝛᴛ˼", url="https://t.me/+RmHB8pN16bM4Y2Q1")
+    join_button_1 = InlineKeyboardButton("˹sυᴘᴘσꝛᴛ˼", url="https://t.me/TFW_NETWORK")
+    join_button_2 = InlineKeyboardButton("˹sυᴘᴘσꝛᴛ˼", url="https://t.me/TFW_UPDATES")
     music_button = InlineKeyboardButton("˹ϻυsɪᴄ ʙσᴛ˼", url="https://t.me/SUKOONN_MUSIC_BOT")
-    group_button = InlineKeyboardButton("˹ᴧʟʟ ʙσᴛ˼", url="https://t.me/+jLKvLlu3_X01NmFl")
+    group_button = InlineKeyboardButton("˹ᴧʟʟ ʙσᴛ˼", url="https://t.me/TFW_BOTS_SUPPORT")
     help_button = InlineKeyboardButton(" ˹ ɢєηєꝛᴧᴛє sᴛꝛɪηɢ ˼", callback_data="help_section")
 
     markup = InlineKeyboardMarkup([[help_button],[join_button_1,join_button_2],[music_button,group_button]])
@@ -181,10 +181,10 @@ async def back_to_welcome(client, callback_query: CallbackQuery):
     ]
     random_image = random.choice(image_urls)
 
-    join_button_1 = InlineKeyboardButton("˹sυᴘᴘσꝛᴛ˼", url="https://t.me/+SGFFClAki2BhMGM1")
-    join_button_2 = InlineKeyboardButton("˹sυᴘᴘσꝛᴛ˼", url="https://t.me/+RmHB8pN16bM4Y2Q1")
+    join_button_1 = InlineKeyboardButton("˹sυᴘᴘσꝛᴛ˼", url="https://t.me/TFW_NETWORK")
+    join_button_2 = InlineKeyboardButton("˹sυᴘᴘσꝛᴛ˼", url="https://t.me/TFW_UPDATES")
     music_button = InlineKeyboardButton("˹ϻυsɪᴄ ʙσᴛ˼", url="https://t.me/SUKOONN_MUSIC_BOT")
-    group_button = InlineKeyboardButton("˹ᴧʟʟ ʙσᴛ˼", url="https://t.me/+jLKvLlu3_X01NmFl")
+    group_button = InlineKeyboardButton("˹ᴧʟʟ ʙσᴛ˼", url="https://t.me/TFW_BOTS_SUPPORT")
     help_button = InlineKeyboardButton("˹ ɢєηєꝛᴧᴛє sᴛꝛɪηɢ ˼", callback_data="help_section")
 
     markup = InlineKeyboardMarkup([[help_button],[join_button_1,join_button_2],[music_button,group_button]])
